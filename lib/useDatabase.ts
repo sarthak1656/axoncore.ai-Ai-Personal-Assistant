@@ -140,7 +140,7 @@ export const useUserOperations = () => {
 
       return response.json();
     },
-    (email: string) => `user:${email}`, // Cache key
+    "user", // Cache key
     300000 // 5 minutes cache
   );
 
@@ -226,7 +226,7 @@ export const useAssistantOperations = () => {
 
       return response.json();
     },
-    (uid: string) => `assistants:${uid}`, // Cache key
+    "assistants", // Cache key
     60000 // 1 minute cache
   );
 

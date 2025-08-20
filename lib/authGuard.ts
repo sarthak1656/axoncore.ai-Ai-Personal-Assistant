@@ -7,7 +7,8 @@ import { logger } from "./logger";
 
 // Hook to protect routes that require authentication
 export function useAuthGuard(redirectTo: string = "/sign-in") {
-  const { user } = useContext(AuthContext);
+  const authContext = useContext(AuthContext);
+  const user = authContext?.user;
   const router = useRouter();
 
   useEffect(() => {
@@ -24,7 +25,8 @@ export function useAuthGuard(redirectTo: string = "/sign-in") {
 
 // Hook to redirect authenticated users away from auth pages
 export function useAuthRedirect(redirectTo: string = "/workspace") {
-  const { user } = useContext(AuthContext);
+  const authContext = useContext(AuthContext);
+  const user = authContext?.user;
   const router = useRouter();
 
   useEffect(() => {
@@ -43,7 +45,8 @@ export function useAuthRedirect(redirectTo: string = "/workspace") {
 
 // Hook to redirect authenticated users based on whether they have assistants
 export function useSmartAuthRedirect() {
-  const { user } = useContext(AuthContext);
+  const authContext = useContext(AuthContext);
+  const user = authContext?.user;
   const router = useRouter();
 
   useEffect(() => {
