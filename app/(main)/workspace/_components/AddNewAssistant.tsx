@@ -53,7 +53,8 @@ function AddNewAssistant({ children }: { children: React.ReactNode }) {
 
   const { insertSelectedAssistants } = useAssistantOperations();
 
-  const { user } = useContext(AuthContext);
+  const authContext = useContext(AuthContext);
+  const user = authContext?.user;
 
   const onSave = async () => {
     if (

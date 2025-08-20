@@ -14,14 +14,6 @@ const nextConfig: NextConfig = {
   // Performance optimizations
   experimental: {
     optimizePackageImports: ["lucide-react", "react-markdown"],
-    turbo: {
-      rules: {
-        "*.svg": {
-          loaders: ["@svgr/webpack"],
-          as: "*.js",
-        },
-      },
-    },
   },
   // Reduce bundle size and improve compilation
   compiler: {
@@ -34,8 +26,6 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-  // Enable SWC minification for faster builds
-  swcMinify: true,
   webpack: (config, { isServer, dev }) => {
     if (!isServer) {
       // Don't bundle server-side modules on the client side

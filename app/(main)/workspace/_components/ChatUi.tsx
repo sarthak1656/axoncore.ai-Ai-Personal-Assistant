@@ -136,7 +136,9 @@ function ChatUi() {
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const chatRef = useRef<any>(null);
-  const { user, setUser } = useContext(AuthContext) as AuthContextType;
+  const authContext = useContext(AuthContext);
+  const user = authContext?.user;
+  const setUser = authContext?.setUser;
   const { updateUserTokens } = useUserOperations();
   const { saveMessage, getMessagesByAssistant } = useMessageOperations();
 
@@ -345,7 +347,7 @@ function ChatUi() {
       const result = await updateUserTokens.execute(user._id, tokensUsed);
 
       // Update user state to reflect new token usage
-      if (user) {
+      if (user && setUser) {
         const newMonthlyUsage = (user.monthlyUsage || 0) + tokensUsed;
         const newCredits = Math.max(0, (user.credits || 0) - tokensUsed);
 
