@@ -54,7 +54,11 @@ async function validateGoogleToken(token: string): Promise<User | null> {
       return null;
     }
 
-    return dbUser;
+    // Convert IUser to User type by ensuring _id is string
+    return {
+      ...dbUser,  
+      _id: dbUser._id?.toString() || "",
+    } as User;
   } catch (error) {
     logger.error("Google token validation error", error);
     return null;
