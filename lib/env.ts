@@ -1,0 +1,21 @@
+export const env = {
+  // MongoDB
+  MONGODB_URI: process.env.MONGODB_URI!,
+
+  // Razorpay
+  RAZORPAY_KEY_ID: process.env.RAZORPAY_LIVE_KEY || process.env.RAZORPAY_TEST_KEY!,
+  RAZORPAY_KEY_SECRET: process.env.RAZORPAY_SECRET_KEY!,
+  NEXT_PUBLIC_RAZORPAY_LIVE_KEY: process.env.NEXT_PUBLIC_RAZORPAY_LIVE_KEY!,
+  RAZORPAY_PLAN_ID: process.env.RAZORPAY_PLAN_ID!,
+
+  // Google OAuth
+  GOOGLE_CLIENT_ID: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!,
+  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET!,
+
+  // NextAuth
+  NEXTAUTH_URL: process.env.NEXTAUTH_URL!,
+  NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET!,
+
+  // OpenRouter
+  OPENROUTER_API_KEY: process.env.OPENROUTER_API_KEY!,
+};
