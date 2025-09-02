@@ -2,9 +2,17 @@
 
 > **Transform your productivity with intelligent AI assistants tailored to your needs**
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://axoncore-ai.vercel.app/)
+
 ## 🚀 Revolutionizing AI Interaction
 
 AxonCore AI is a cutting-edge platform that empowers users to create, customize, and interact with multiple specialized AI assistants. Built with enterprise-grade technologies, it delivers a seamless, secure, and scalable solution for AI-powered productivity.
+
+## 🌐 Live Demo
+
+Experience AxonCore AI live in action: **[https://axoncore-ai.vercel.app/](https://axoncore-ai.vercel.app/)**
+
+---
 
 ## ⚡ Lightning-Fast Tech Stack
 
@@ -75,6 +83,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Checkbox Components**: Accessible form controls
 - **Progress Components**: Visual feedback systems
 
+---
+
 ## 🎯 Core Capabilities
 
 ### 🤖 **Intelligent Assistant Ecosystem**
@@ -103,6 +113,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Razorpay Integration**: Bank-level payment security
 - **Usage Analytics**: Real-time consumption monitoring
 
+---
+
 ## 🏗️ Architectural Excellence
 
 ### **Frontend Architecture**
@@ -124,6 +136,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Google OAuth**: Enterprise authentication
 - **Razorpay**: Payment processing infrastructure
 - **Vercel**: Global deployment platform
+
+---
 
 ## 🔄 **User Journey Excellence**
 
@@ -161,6 +175,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Usage Monitoring**: Real-time consumption tracking
 - **Billing Transparency**: Complete transaction history
 
+---
+
 ## 🔧 **Technical Implementation**
 
 ### **Database Architecture**
@@ -183,6 +199,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Data Protection**: End-to-end encryption
 - **Input Validation**: Comprehensive sanitization
 
+---
+
 ## 🚀 **Deployment & Infrastructure**
 
 ### **Development Environment**
@@ -198,6 +216,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Environment Configuration**: Production-ready setup
 - **Database Scaling**: MongoDB Atlas cloud hosting
 - **Performance Optimization**: Next.js built-in optimizations
+
+---
 
 ## 📊 **Feature Excellence**
 
@@ -218,6 +238,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Accessible Components**: WCAG 2.1 AA compliance
 - **Smooth Animations**: Framer Motion excellence
 
+---
+
 ## 🔒 **Privacy & Security Excellence**
 
 ### **Data Protection**
@@ -226,6 +248,8 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 - **Authentication Security**: Google OAuth integration
 - **Session Protection**: Secure session management
 - **Data Encryption**: End-to-end security
+
+---
 
 ## 📚 **Getting Started**
 
@@ -239,11 +263,11 @@ AxonCore AI is a cutting-edge platform that empowers users to create, customize,
 
 ### **Quick Start**
 
-1. **Clone** the repository
-2. **Install** dependencies: `npm install`
-3. **Configure** environment variables
-4. **Launch** development server: `npm run dev`
-5. **Access** at `http://localhost:3000`
+1.  **Clone** the repository
+2.  **Install** dependencies: `npm install`
+3.  **Configure** environment variables
+4.  **Launch** development server: `npm run dev`
+5.  **Access** at `http://localhost:3000`
 
 ### **Environment Configuration**
 
@@ -254,6 +278,8 @@ Create `.env.local` with:
 - NextAuth configuration
 - OpenRouter API key
 - Razorpay credentials
+
+---
 
 ## 📞 **Support & Resources**
 
